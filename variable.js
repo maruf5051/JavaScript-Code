@@ -6,9 +6,9 @@ var radius = 5; // Value Changeable
 var area = PI * radius * radius
 console.log("Area = " +area)
 
-let name = "Maruf Sikder" // Value changeable
+let userName = "Maruf Sikder" // Value changeable
 
-console.log("Name: " + name)
+console.log("Name: " + userName)
 
 accountId = 123 // Global variable
 console.log("Account ID: " + accountId)
@@ -17,7 +17,7 @@ let accountName; // Local variable
 accountName = "Maruf Sikder" // Value changeable
 console.log("Account Name: " + accountName)
 
-console.table([accountId, accountName, name, area])
+console.table([accountId, accountName, userName, area])
 
 
 
