@@ -1,0 +1,25 @@
+const PI = 3.14159; // unchangeable
+var radius = 5; // Value Changeable
+
+// radius = 10;
+
+var area = PI * radius * radius
+console.log("Area = " +area)
+
+let name = "Maruf Sikder" // Value changeable
+
+console.log("Name: " + name)
+
+accountId = 123 // Global variable
+console.log("Account ID: " + accountId)
+
+let accountName; // Local variable
+accountName = "Maruf Sikder" // Value changeable
+console.log("Account Name: " + accountName)
+
+console.table([accountId, accountName, name, area])
+
+
+
+
+
