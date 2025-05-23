@@ -1,3 +1,4 @@
+// This is a simple JavaScript program that prints out some personal information to the console.
 console.log("Name: Maruf Sikder")
 console.log("Age: 22")
 console.log("Hobby: Playing Football")
