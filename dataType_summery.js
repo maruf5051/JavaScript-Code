@@ -55,3 +55,34 @@ console.log(myFunction, typeof myFunction)
 
 
 
+// Memory : Stack(Primitive) and Heap(Non-Primitive)
+console.log("===========================================")
+
+let userEmail = "maruf@gmail.com"; // Primitive
+let anotherEmail = userEmail; // Copy by value   
+console.log(userEmail,"\n",anotherEmail); // Both are same
+
+anotherEmail = "hassan@gmail.com"
+console.log(userEmail,"\n",anotherEmail); // userEmail is unchanged
+
+
+console.log("===========================================")
+
+// Non-Primitive
+let userOne = {
+    name: "Maruf",
+    age: 22
+}
+
+let userTwo = userOne; // Copy by reference
+console.log(userOne, "\n", userTwo); // Both are same
+console.log("\n")
+
+userTwo.name = "Hassan"; // Changing userTwo will change userOne as well
+console.log(userOne, "\n", userTwo); // userOne is changed because both are pointing to the same object in memory
+
+console.log("\n")
+
+userOne.age = 23; // Changing userOne will change userTwo as well
+console.log(userOne, "\n", userTwo); // userTwo is changed because both are pointing to the same object in memory
+
