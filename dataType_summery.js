@@ -13,13 +13,13 @@ console.log(height, typeof height)
 const isLoggedIn = true // Boolean
 console.log(isLoggedIn, typeof isLoggedIn)
 
-const value = null // null
+const value = null // null, typeof null is object (this is a bug in JavaScript)
 console.log(value, typeof value)
 
-const value2 = undefined // undefined
+const value2 = undefined // undefined, typeof undefined is undefined
 console.log(value2, typeof value2)
 
-const id = Symbol("123") // Symbol
+const id = Symbol("123") // Symbol, unique and immutable
 console.log(id, typeof id)
 
 const id2 = Symbol("123") // Symbol
@@ -50,7 +50,7 @@ console.log(fruits, typeof fruits)
 let myFunction = function greet() {
     console.log("Hello, World!");
 }
-console.log(myFunction, typeof myFunction)
+console.log(myFunction, typeof myFunction) // function is a callable object 
 
 
 
