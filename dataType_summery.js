@@ -47,7 +47,7 @@ let fruits = ["Apple", "Banana", "Orange"]
 console.log(fruits, typeof fruits)
 
 //function
-let myFunction =  function greet() {
+let myFunction = function greet() {
     console.log("Hello, World!");
 }
 console.log(myFunction, typeof myFunction)
@@ -60,10 +60,10 @@ console.log("===========================================")
 
 let userEmail = "maruf@gmail.com"; // Primitive
 let anotherEmail = userEmail; // Copy by value   
-console.log(userEmail,"\n",anotherEmail); // Both are same
+console.log(userEmail, "\n", anotherEmail); // Both are same
 
 anotherEmail = "hassan@gmail.com"
-console.log(userEmail,"\n",anotherEmail); // userEmail is unchanged
+console.log(userEmail, "\n", anotherEmail); // userEmail is unchanged
 
 
 console.log("===========================================")
