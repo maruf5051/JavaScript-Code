@@ -1,9 +1,13 @@
+// Here I will demonstrate the basic data types in JavaScript
+
+// number, bigint, string, boolean, null, undefined, symbol, array, function, date, object
+
 // number = 2 to power 53
 number = 25
 console.log(number);
 
 // bigint
-bigint = 25154525455545544554454
+bigint = 25154525455545544554454n
 console.log(bigint);
 
 // string
