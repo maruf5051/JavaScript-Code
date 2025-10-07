@@ -1,15 +1,17 @@
 let score = "22abc"
 
 console.log(typeof score)
-console.log(typeof(score))
+console.log(typeof (score))
 
 let valueInNumber = Number(score)
 console.log(typeof valueInNumber)
 console.log(valueInNumber)
 
-// "22" => 33
+// If you convert a non-numeric string to a number, the result will be.......
+// "22" => 22
 // "22abc" => NaN
 // true => 1, false => 0
+
 // print new line
 console.log("\n")
 
@@ -31,7 +33,7 @@ console.log("\n")
 let id = 5051
 
 let isString = String(id)
-console.log(typeof isString) 
+console.log(typeof isString)
 console.log(isString)
 
 console.log("\n");

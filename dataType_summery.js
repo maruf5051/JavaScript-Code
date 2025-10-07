@@ -1,4 +1,4 @@
-// Primitive 
+// Primitive : call by value, stored in stack memory, faster to access
 // 7 types : String, Number, Boolean, null, undefined, symbol, BigInt
 
 const fullName = "Maruf Sikder" // String
@@ -47,7 +47,7 @@ let fruits = ["Apple", "Banana", "Orange"]
 console.log(fruits, typeof fruits)
 
 //function
-let myFunction = function () {
+let myFunction = function greet() {
     console.log("Hello, World!");
 }
 console.log(myFunction, typeof myFunction) // function is a callable object 
