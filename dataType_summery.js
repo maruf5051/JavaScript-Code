@@ -47,7 +47,7 @@ let fruits = ["Apple", "Banana", "Orange"]
 console.log(fruits, typeof fruits)
 
 //function
-let myFunction = function greet() {
+let myFunction = function () {
     console.log("Hello, World!");
 }
 console.log(myFunction, typeof myFunction) // function is a callable object 
