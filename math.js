@@ -16,6 +16,6 @@ console.log(Math.random()); // Random number between 0 and 1
 console.log(Math.random() * 100); // Random number between 0 and 100
 console.log(Math.floor(Math.random() * 100)); // Random integer between 1 and 100
 
-const min=10
-const max=20
-console.log(Math.floor(Math.random() * (max - min + 1)) + min); // Random integer between 10 and 20
+const min = 10
+const max = 20
+console.log(Math.floor(Math.random() * (max - min + 1)) + min); // Random integer between 10 and 20st
